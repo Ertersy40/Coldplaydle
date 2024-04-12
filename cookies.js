@@ -15,7 +15,7 @@ document.getElementById('acceptAllCookieSettings').addEventListener('click', fun
         'event_label': 'cookies accepted'
     });
     initGoogleAnalytics(); 
-    initGoogleAdsense();
+    // initGoogleAdsense();
     // Set your cookie or localStorage here
     document.getElementById('cookieConsentBanner').style.display = 'none';
     document.getElementById('cookieSettingsModal').style.display = 'none';
@@ -68,7 +68,7 @@ function checkCookieConsent() {
             initGoogleAnalytics(); // Initialize Google Analytics if consented
         }
         if (consent.advertising) {
-            initGoogleAdsense(); // Initialize Google Adsense if consented
+            // initGoogleAdsense(); // Initialize Google Adsense if consented
         }
     } else {
         // Display cookie consent banner if no consent is found
@@ -89,6 +89,7 @@ function initGoogleAnalytics() {
 
 // Initialize Google Adsense
 function initGoogleAdsense() {
+    console.log('adsense enabled through cookies accepted!')
     // (adsbygoogle = window.adsbygoogle || []).push({
     //     google_ad_client: "ca-pub-9512385908704001",
     //     enable_page_level_ads: true
