@@ -60,9 +60,9 @@ h2{
 
 .background {
     background-image: 
-        radial-gradient(circle at 20% 35%, #2f92c4, transparent 50%),
-        radial-gradient(circle at 75% 25%, #d7a9eb, transparent 50%),
-        radial-gradient(circle at 50% 60%, #da5869, transparent 50%);
+        radial-gradient(circle at 20% 35%, #2a34b0, transparent 50%),
+        radial-gradient(circle at 75% 25%, #b93e25, transparent 50%),
+        radial-gradient(circle at 50% 60%, #000000, transparent 50%);
     position: fixed;
     top: 0;
     left: 0;
