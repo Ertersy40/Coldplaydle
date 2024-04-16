@@ -138,3 +138,8 @@ button {
     overflow: hidden;
     width: 150px;
 }
+
+.form-container{
+    width: 90%;
+    max-width: 300px;
+}
